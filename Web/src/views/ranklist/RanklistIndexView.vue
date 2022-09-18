@@ -1,21 +1,20 @@
 <template>
-  <ContentField>
-    排行榜
-  </ContentField>
+    <ContentFild>
+        排行榜
+    </ContentFild>
 </template>
 
 <script>
-import ContentField from "@/components/ContentField";
+import ContentFild from '../../components/ContentField.vue'
 
-export default {
-  components: {
-    ContentField,
-  }
-
-
+export default{
+    components:{
+        ContentFild
+    }
 }
 </script>
 
 <style scoped>
 
 </style>
+

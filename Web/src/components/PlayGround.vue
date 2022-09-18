@@ -1,26 +1,23 @@
 <template>
   <div class="playground">
-      <GameMap/>
+    <GameMap />
   </div>
 </template>
 
 <script>
-import GameMap from "@/components/GameMap";
+import GameMap from "./GameMap.vue";
 
 export default {
-    components:{
-      GameMap,
-    }
-}
+  components: {
+    GameMap,
+  },
+};
 </script>
 
 <style scoped>
-
-div.playground{
+div.playground {
   width: 60vw;
   height: 70vh;
-  margin: 4vh auto;
-  /*background-color: antiquewhite;*/
+  margin: 40px auto;
 }
-
 </style>
